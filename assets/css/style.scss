@@ -1,0 +1,43 @@
+/**
+ * style.scss
+ *
+ * Author: Johannes Rückert
+ *
+ */
+
+/**
+ * basicss overrides
+ *
+ * any defaults in basicss/basicss/_settings.scss
+ * may be overridden...
+ *
+ * e.g. $prototyping: true;
+ */
+
+$gridObject: true;
+
+// typo
+$fontPrimary:     'PT Sans', sans-serif;
+$headingSize1:    48px;
+$headingSize2:    36px;
+$headingSize3:    28px;
+$headingSize4:    21px;
+$headingSize5:    21px;
+$headingSize6:    18px;
+
+// colors
+$mainColor01:     #333333; // (mostly) headlines
+$mainColor02:     #777777; // normal text
+$mainColor03:     #999999; // descriptions
+
+/**
+ * basicss import
+ */
+
+@import 'bower_components/basicss/basicss';
+
+/**
+ * userstyle imports
+ *
+ * e.g. @import 'nav';
+ */
