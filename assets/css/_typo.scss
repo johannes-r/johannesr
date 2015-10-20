@@ -1,0 +1,67 @@
+/**
+ * _typo.scss
+ *
+ * Author: Johannes Rückert
+ *
+ */
+
+html {
+  font-family: $fontPrimary;
+  font-size: ($baseFontSize / 16px) * 1em;
+  line-height: $lineHeightRatio;
+}
+
+h1,
+.heading-1,
+%heading-1 { 
+  font-size: $headingSize1;
+  line-height: $lineHeightHeading1;
+}
+
+h2,
+.heading-2,
+%heading-2 { 
+  font-size: $headingSize2;
+  line-height: $lineHeightHeading2;
+}
+
+h3,
+.heading-3,
+%heading-3 { 
+  font-size: $headingSize3;
+  line-height: $lineHeightHeading3;
+}
+
+h4,
+.heading-4,
+%heading-4 { 
+  font-size: $headingSize4;
+  line-height: $lineHeightHeading4;
+  color: $mainColor02;
+  text-transform: uppercase;
+}
+
+h5,
+.heading-5,
+%heading-5 { 
+  font-size: $headingSize5;
+  line-height: $lineHeightHeading5;
+}
+
+h6,
+.heading-6,
+%heading-6 { 
+  font-size: $headingSize6;
+  line-height: $lineHeightHeading6;
+}
+
+p {
+  color: $mainColor02;  
+  margin-bottom: 40px;
+}
+
+// typo helper
+.txt--small {
+  font-size: 14px;
+  line-height: 28px;
+}

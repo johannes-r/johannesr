@@ -1,0 +1,12 @@
+a {
+  text-decoration: underline;
+}
+
+.link--secret {
+  color: $mainColor01; 
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

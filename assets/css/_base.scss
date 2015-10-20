@@ -1,0 +1,43 @@
+$space: 80px;
+
+.page-content {
+  max-width: 720px;
+  padding: $space 0 0 $space;
+}
+
+code {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+pre {
+  margin: 0;
+}
+
+figure {
+  margin-left: -$space; 
+  margin-bottom: 50px;
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+figcaption {
+  padding-left: $space;
+  font-size: 14px;
+  font-style: italic;
+  color: $mainColor03;
+}
+
+.breakout {
+  margin-left: -$space;
+  padding-left: $space;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: #D8D8D8;
+  @include px-to-rem(margin, 0 0 $baseUnit (-$space));
+}

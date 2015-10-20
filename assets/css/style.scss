@@ -17,18 +17,35 @@
 $gridObject: true;
 
 // typo
-$fontPrimary:     'PT Sans', sans-serif;
-$headingSize1:    48px;
-$headingSize2:    36px;
-$headingSize3:    28px;
-$headingSize4:    21px;
-$headingSize5:    21px;
-$headingSize6:    18px;
+$baseFontSize:          18px;
+$baseLineHeight:        28px;
+$fontPrimary:           'PT Sans', sans-serif;
+
+$headingSize1:          48px;
+$lineHeightHeading1:    62px;
+
+$headingSize2:          36px;
+$lineHeightHeading2:    46px;
+
+$headingSize3:          28px;
+$lineHeightHeading3:    36px;
+
+$headingSize4:          21px;
+$lineHeightHeading4:    27px;
+
+$headingSize5:          21px;
+$lineHeightHeading5:    27px;
+
+$headingSize6:          18px;
+$lineHeightHeading6:    23px;
 
 // colors
 $mainColor01:     #333333; // (mostly) headlines
 $mainColor02:     #777777; // normal text
 $mainColor03:     #999999; // descriptions
+
+// links
+$colorLink: $mainColor02;
 
 /**
  * basicss import
@@ -41,3 +58,10 @@ $mainColor03:     #999999; // descriptions
  *
  * e.g. @import 'nav';
  */
+
+@import 'typo';
+@import 'base';
+@import 'links';
+@import 'syntax';
+@import 'list-bare';
+@import 'posts';

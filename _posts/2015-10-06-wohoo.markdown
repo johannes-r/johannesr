@@ -1,25 +1,40 @@
 ---
 layout: post
-title:  "Wohoo"
+title:  "Das ist die Überschrift"
 date:   2015-10-06 15:41:22
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I'm passionate about making it as fast, easy and pleasant as possible for people to use your app. I love tackling complex tasks and flows and make them feel simple. I put time, care and attention [into everything][everything] I deliver. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### Das ist Überschrift 3
 
-Jekyll also offers powerful support for code snippets:
+The only problem with this is that, on a Mac, at least, there is no shortcut for a zero-width spaces. Copying and pasting it—which, as you can imagine, is quite difficult—from Wikipedia is too much effort to even bother…  
+I’ve long been a fan of iOS’ (and now Mavericks’) keyboard shortcut mappings, so I decided to make use of these again. I’ve mapped the following pairs:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+def add_person_to_project_check_box(person, company)
+  content_tag(:label, 
+    check_box_tag("people_ids[]", person.id, false, { :class => "company_#{company.id}_person" }) +
+    " " + person.name
+  ) + tag(:br)
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+##### Das ist Überschrift 5
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+I'm passionate about making it as fast, easy and pleasant as possible for people to use your app. I love tackling complex tasks and flows and make them feel simple. I put time, care and attention into everything I deliver. 
+
+The only problem with this is that, on a Mac, at least, there is no shortcut for a zero-width spaces. Copying and pasting it—which, as you can imagine, is quite difficult—from Wikipedia is too much effort to even bother…
+I’ve long been a fan of iOS’ (and now Mavericks’) keyboard shortcut mappings, so I decided to make use of these again. I’ve mapped the following pairs:
+
+<figure>
+	<img src="http://placehold.it/720x420">
+	<figcaption>This is a happy gif. And here is the source:  <a>http://reactiongifs.com/?p=20412</a></figcaption>
+</figure>
+
+I'm passionate about making it as fast, easy and pleasant as possible for people to use your app. I love tackling complex tasks and flows and make them feel simple. I put time, care and attention into everything I deliver. 
+
+The only problem with this is that, on a Mac, at least, there is no shortcut for a zero-width spaces. Copying and pasting it—which, as you can imagine, is quite difficult—from Wikipedia is too much effort to even bother…
+I’ve long been a fan of iOS’ (and now Mavericks’) keyboard shortcut mappings, so I decided to make use of these again. I’ve mapped the following pairs:
+
+[everything]:  http://www.thenews.im
