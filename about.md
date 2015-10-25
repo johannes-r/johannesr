@@ -15,7 +15,8 @@ I like going from a blank page to a final product you can actually interact with
 
 some trivia:
 
-- I have the odd talent (skill?) to memorize nearly every shortcut for every program I use and my colleagues like to keep making use of this. "Hey... how do I toggle the DevTools position again?"  
+- I have the odd talent to memorize nearly every shortcut for every program I use and my colleagues like to keep making use of this.  
+"Hey... how do I toggle the DevTools position again?"  
 - I like the sound of rain and for whatever reason I enjoy pronouncing the word YAML front-matter in a weird way  
 - I broke my arm once  
 
