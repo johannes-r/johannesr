@@ -74,8 +74,7 @@ p {
 
 // typo helper
 .txt--small {
-  @include font-size(14px, false);
-  line-height: 28px;
+  @include font-size(14px);
 }
 
 .txt--dark {
