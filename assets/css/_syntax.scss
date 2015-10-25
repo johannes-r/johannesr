@@ -1,9 +1,55 @@
-.highlight {
-  background-color: #F4F4F4;
-  border: 1px solid #D8D8D8;
-  border-radius: 4px;
+// inline <code> snippets are the same size as <p>
+code {
+  font-family: "PT Mono", monospace;
+
+  // inline <code> still has some highlighting
+  // use the :not selector to ensure the <code> block is 
+  // used inline
+  &:not([class]) {
+    background-color: $codeBlockColor;
+    border: 1px solid $borderColor;
+    padding: 5px;
+  }
+}
+
+// a little smaller if they're not inline
+// the highlight box is always wrapped with a <pre> element
+pre {
+  margin: 0;
   padding-left: $space;
-  @include px-to-rem(margin, 0 0 $baseUnit (-$space));
+  code {
+    @include font-size(14px);
+  }
+}
+
+.highlight {
+  background-color: $codeBlockColor;
+  border: 1px solid $borderColor;
+  border-left: 0;
+  border-radius: 0 4px 4px 0;
+  padding: $baseUnit 0 $baseUnit 0;
+  margin: 0 0 $baseUnit (-$space);
+  position: relative;
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    width: $baseUnit;
+  }
+
+  &:before {
+    left: 0;
+    background: linear-gradient(to left, rgba($codeBlockColor, 0), rgba($codeBlockColor, 1));
+  }
+
+  &:after {
+    right: 0;
+    border-radius: 0 4px 4px 0;
+    background: linear-gradient(to right, rgba($codeBlockColor, 0), rgba($codeBlockColor, 1));
+  }
 }
 
 .highlight .c { color: #999988; font-style: italic } /* Comment */

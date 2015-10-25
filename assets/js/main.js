@@ -9,6 +9,7 @@ window.app = {
   commit : {},
   repo : {}
 };
+
 $(function() {
 
   $.get( "https://api.github.com/users/" +app.user+ "/repos",
@@ -38,12 +39,13 @@ function getLastestCommitData(ofRepo)
       var commitInfo = data[0];
       window.app.commit.name = commitInfo.commit.message;
       window.app.commit.sha = commitInfo.sha.substr(0,7);
-
       injectTemplateToDom();
     });
 }
 
-// grab data grom window.app.commit and build the template and append to dom #latest__commit__area
+// grab data from window.app.commit and build the template and append to dom #latest__commit__area
 function injectTemplateToDom(){
-  console.log(window.app);
+  // console.log(window.app.commit.name);
+  $('.latest-commit_sha').append(window.app.commit.sha);
+  $('.latest-commit_name').append(window.app.commit.name);
 }

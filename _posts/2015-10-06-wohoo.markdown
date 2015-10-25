@@ -28,7 +28,7 @@ The only problem with this is that, on a Mac, at least, there is no shortcut for
 I’ve long been a fan of iOS’ (and now Mavericks’) keyboard shortcut mappings, so I decided to make use of these again. I’ve mapped the following pairs:
 
 <figure>
-	<img src="http://placehold.it/720x420">
+	<img src="http://www.placehold.it/720x420">
 	<figcaption>This is a happy gif. And here is the source:  <a>http://reactiongifs.com/?p=20412</a></figcaption>
 </figure>
 

@@ -1,0 +1,15 @@
+figure {
+  margin-left: -$space; 
+  margin-bottom: 50px;
+
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+figcaption {
+  padding-left: $space;
+  font-size: 14px;
+  font-style: italic;
+  color: $mainColor03;
+}

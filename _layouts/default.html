@@ -46,15 +46,17 @@
   -->
 
   <!-- Modernizr -->
-  <script src="/assets/js/modernizr.js"></script>
+  <!-- <script src="/assets/js/modernizr.js"></script> -->
 </head>
 <body>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  {% include header.html %}
+
+  <div class="page-content">
+    <div class="wrapper">
+      {{ content }}
     </div>
+  </div>
 
   <script src="/assets/js/build.js"></script>
 

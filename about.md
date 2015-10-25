@@ -1,18 +1,17 @@
 ---
 layout: page
-title: About
+title: about
+no_footer: true
 permalink: /about/
 ---
-
-![Johannes Avatar](/assets/images/static/its_me.png)
 
 Hi there,
 
 my name is Johannes and I'm a front-end architect currently living in Würzburg, Germany.
 
-What amazes (besseres wort, zu blah) me about this job is that (almost) every day I'm given a new set of tools and it's up to me to find the best suited solution for the project I'm currently working on. 
+What I really like about this job is that almost every day I'm given a new set of tools and it's up to me to find the best suited solution for the project I'm currently working on. 
 
- like going from a blank page to a final product you can actually interact with. It's the feeling of creating something from scratch which I enjoy the most. (if `bower install  && npm install` still counts as 'from scratch') :)
+I like going from a blank page to a final product you can actually interact with. It's the feeling of creating something from scratch which I enjoy the most - if `bower install  && npm install` still counts as 'from scratch' :)
 
 some trivia:
 

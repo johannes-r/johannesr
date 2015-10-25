@@ -16,6 +16,8 @@
 
 $gridObject: true;
 
+$space:                 80px;
+
 // typo
 $baseFontSize:          18px;
 $baseLineHeight:        28px;
@@ -44,8 +46,9 @@ $mainColor01:     #333333; // (mostly) headlines
 $mainColor02:     #777777; // normal text
 $mainColor03:     #999999; // descriptions
 
-// links
-$colorLink: $mainColor02;
+$borderColor:     #D8D8D8; 
+$codeBlockColor:  #F4F4F4;
+$colorLink:       $mainColor02;
 
 /**
  * basicss import
@@ -64,4 +67,6 @@ $colorLink: $mainColor02;
 @import 'links';
 @import 'syntax';
 @import 'list-bare';
+@import 'header';
 @import 'posts';
+@import 'media';

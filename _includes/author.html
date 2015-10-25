@@ -1,5 +1,12 @@
-<hr>
+{% unless page.no_footer %}
+  <hr>
 
-<h5>About the author</h5>
+  <h5>About the author</h5>
 
-<p>My name is Johannes. I'm a frontend developer at ideenfrische, currently living and working in Würzburg, Germany. I push code to <a href="https://github.com/johannes-r">github</a> and twittertweet on <a href="https://twitter.com/johannes_err">twitter</a>. Feel free to shot me an email.</p>
+  <p>My name is Johannes. I'm a fron-tend developer at ideenfrische, currently living and working in Würzburg, Germany. I push code to <a href="https://github.com/johannes-r">github</a> and twittertweet on <a href="https://twitter.com/johannes_err">twitter</a>. Feel free to shot me an <a href="mailto:hi@johannesr.de">email</a>.</p>
+
+  <h6>Latest commit</h6>
+  <code class="latest-commit">
+    <span class="latest-commit_sha  txt--dark"></span> <span class="latest-commit_name"></span>
+  </code>
+{% endunless %}

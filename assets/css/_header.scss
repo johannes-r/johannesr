@@ -1,0 +1,13 @@
+.site-header {
+  border-bottom: 1px solid $borderColor;
+  line-height: $baseUnit*3;
+}
+
+.site-nav {
+  display: inline-block;
+  float: right;
+}
+
+.site-nav .page-link:not(:last-child) {
+  margin-right: $baseUnit; 
+}

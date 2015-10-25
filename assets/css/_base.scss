@@ -1,33 +1,25 @@
-$space: 80px;
-
-.page-content {
-  max-width: 720px;
-  padding: $space 0 0 $space;
-}
-
-code {
-  font-size: 14px;
-  line-height: 28px;
-}
-
-pre {
-  margin: 0;
-}
-
-figure {
-  margin-left: -$space; 
-  margin-bottom: 50px;
-
-  img {
-    margin-bottom: 30px;
+.wrapper {
+  padding: 0 $space/4;
+  @media (min-width: 550px) {
+    padding: 0 $space/2;
+  }
+  @media (min-width: 800px) {
+    padding: 0 $space;
   }
 }
 
-figcaption {
-  padding-left: $space;
-  font-size: 14px;
-  font-style: italic;
-  color: $mainColor03;
+.page-content {
+  max-width: 720px;
+  padding-top: $space;
+  @media (min-width: 1024px) {
+    max-width: 900px;
+  }
+  @media (min-width: 1440px) {
+    max-width: 1000px;
+  }
+  @media (min-width: 1920px) {
+    max-width: 1300px;
+  }
 }
 
 .breakout {
