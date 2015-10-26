@@ -1,8 +1,8 @@
 <footer class="site-footer  txt--small">
   <div class="constrain">
     <div class="wrapper">
-      <span>&copy; Johannes Rückert</span>
-      <span class="legal">enjoy your <span class="js-current-day"></span>, don't read this <a href="#">legal</a> stuff</span>
+      <span>&copy; {{ site.time | date: '%Y' }} Johannes Rückert</span>
+      <span class="legal">enjoy your {{ site.time | date: '%A' }}, don't read this <a href="#">legal</a> stuff</span>
     </div>
   </div>
 </footer>
