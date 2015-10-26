@@ -2,6 +2,14 @@
   @include px-to-rem(margin-top, $baseUnit*5);
 }
 
+.copyright {
+  @include media(max-width 529px) {
+    display: block;
+  }
+}
+
 .legal {
-  float: right;
+  @include media(530px) {
+    float: right;
+  }
 }
