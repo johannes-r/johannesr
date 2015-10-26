@@ -42,9 +42,8 @@ $(function() {
       });
   }
 
-  // grab data from window.app.commit and build the template and append to dom #latest__commit__area
+  // grab data from window.app.commit and build the template and append to DOM
   function injectTemplateToDom(){
-    // console.log(window.app.commit.name);
     $('.js-latest-commit_sha').append(window.app.commit.sha);
     $('.js-latest-commit_name').append(window.app.commit.name);
   }
