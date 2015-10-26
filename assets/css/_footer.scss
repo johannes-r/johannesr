@@ -1,5 +1,5 @@
 .site-footer {
-  margin-top: $baseUnit*4;
+  @include px-to-rem(margin-top, $baseUnit*5);
 }
 
 .legal {
