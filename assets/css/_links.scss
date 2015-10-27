@@ -31,6 +31,7 @@ a:not(.post-link):not(.page-link):not(.site-title) {
   text-transform: uppercase;
 }
 
+// used in header
 .link--underline-animation {
   position: relative;
   text-decoration: none;
@@ -52,5 +53,17 @@ a:not(.post-link):not(.page-link):not(.site-title) {
 
   &:hover:after {
     width: 100%;
+  }
+}
+
+.post-meta,
+.post-link {
+  transition: .3s ease-in-out;
+}
+
+.post-item:hover {
+  .post-meta,
+  .post-link {
+    color: $mainColor04;
   }
 }

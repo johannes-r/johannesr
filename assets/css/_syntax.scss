@@ -1,6 +1,6 @@
 // inline <code> snippets are the same size as <p>
 code {
-  font-family: "PT Mono", monospace;
+  font-family: $fontSecondary;
 
   // inline <code> still has some highlighting
   // use the :not selector to ensure the <code> block is 

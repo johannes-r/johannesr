@@ -81,3 +81,11 @@ p {
 .txt--dark {
   color: $mainColor01;
 }
+
+.txt--secondary {
+  font-family: $fontSecondary;
+}
+
+.txt--up {
+  text-transform: uppercase;
+}

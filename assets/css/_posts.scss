@@ -4,12 +4,17 @@
 
 .post-item {
   border-bottom: 1px solid $borderColor;
+  padding: $baseUnit 0;
   
-  &:not(:first-child) {
-    padding: $baseUnit 0;  
+  &:first-child {
+    border-top: 1px solid $borderColor;
   }
 
   h2 {
     margin-bottom: 0;
   }
+}
+
+.post-meta {
+  padding-right: $baseUnit*1.5;
 }
