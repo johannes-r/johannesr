@@ -9,8 +9,10 @@
 }
 
 .site-nav {
-  display: inline-block;
-  float: right;
+  @include media($breakTablet) {
+    float: right;
+    display: inline-block;
+  }
 }
 
 .site-nav .page-link:not(:last-child) {
