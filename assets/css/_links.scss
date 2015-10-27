@@ -1,5 +1,21 @@
-a {
-  text-decoration: underline;
+// TODO: better selector
+a:not(.post-link):not(.page-link):not(.site-title) {
+  color: $mainColor04;
+  background: transparent;
+  transition: .1s ease-in-out;
+  text-decoration: none;
+  border-bottom: 1px solid $mainColor04;
+
+  &:hover {
+    color: $white;
+    background: $mainColor04;
+    text-decoration: none;
+  }
+
+  &:active {
+    position: relative;
+    top: 2px; 
+  }
 }
 
 .link--secret {
