@@ -14,3 +14,27 @@ a {
 .page-link {
   text-transform: uppercase;
 }
+
+.link--underline-animation {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 10px;
+
+  &:after {
+    transition: .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    margin: auto;
+    content: '';
+    color: transparent;
+    background: $white;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+}

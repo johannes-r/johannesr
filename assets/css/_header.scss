@@ -1,6 +1,11 @@
 .site-header {
   border-bottom: 1px solid $borderColor;
   line-height: $baseUnit*3;
+  background-color: $mainColor04;
+
+  a {
+    color: $white;
+  }
 }
 
 .site-nav {
