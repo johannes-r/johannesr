@@ -38,7 +38,7 @@ a:not(.post-link):not(.page-link):not(.site-title) {
   padding-bottom: 10px;
 
   &:after {
-    transition: .3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    transition: .3s cubic-bezier(1, 1, 0.10, 1);
     position: absolute;
     right: 0;
     bottom: 0;

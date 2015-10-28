@@ -8,10 +8,18 @@
   }
 }
 
+.site-title {
+  font-size: 1.5rem;
+}
+
 .site-nav {
   @include media($breakTablet) {
     float: right;
     display: inline-block;
+  }
+
+  a {
+    font-size: 1rem;
   }
 }
 
