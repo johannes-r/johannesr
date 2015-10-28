@@ -28,7 +28,11 @@ a:not(.post-link):not(.page-link):not(.site-title) {
 }
 
 .page-link {
-  text-transform: uppercase;
+  text-transform: capitalize;
+
+  @include media(640px) {
+    text-transform: uppercase;
+  }
 }
 
 // used in header

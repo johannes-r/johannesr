@@ -1,6 +1,6 @@
 .wrapper {
   padding: 0 $space/4;
-  @media (min-width: 550px) {
+  @media (min-width: 640px) {
     padding: 0 $space/2;
   }
   @media (min-width: 800px) {
@@ -17,7 +17,7 @@
   padding-left: $space;
 }
 
-hr {
+.post-delimiter {
   height: 1px;
   border: none;
   background-color: #D8D8D8;

@@ -1,15 +1,16 @@
+{% comment %}
+  NOTE:
+  inline-block comment bc site-nav will change
+  to inline-block at a breakpoint
+{% endcomment %}
+
 <header class="site-header">
-
   <div class="wrapper">
-
-    <a class="site-title  logo  link--secret" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
+    <a class="site-title  logo  link--secret" href="{{ site.baseurl }}/">{{ site.title }}</a><!--
+ --><nav class="site-nav">
       <a class="page-link  link--underline-animation  link--secret" href="{{ site.baseurl }}/">home</a>
       <a class="page-link  link--underline-animation  link--secret" href="{{ site.baseurl }}/writing/">writing</a>
       <a class="page-link  link--underline-animation  link--secret" href="{{ site.baseurl }}/about/">about</a>
     </nav>
-
   </div>
-
 </header>

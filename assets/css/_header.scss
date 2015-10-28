@@ -13,7 +13,7 @@
 }
 
 .site-nav {
-  @include media($breakTablet) {
+  @include media(640px) {
     float: right;
     display: inline-block;
   }
