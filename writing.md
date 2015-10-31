@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Writing
+page-class: page--writing
 permalink: /writing/
 ---
 

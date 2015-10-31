@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about
+page-class: page--about
 no_footer: true
 permalink: /about/
 ---

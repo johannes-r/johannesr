@@ -1,5 +1,6 @@
 ---
 layout: post
+page-class: page--writing
 title:  "Welcome to Jekyll!"
 date:   2015-10-06 15:36:23
 categories: jekyll update

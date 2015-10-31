@@ -1,5 +1,5 @@
 // TODO: better selector
-a:not(.post-link):not(.page-link):not(.site-title) {
+a:not(.post-link):not(.site-nav__item):not(.site-title) {
   color: $mainColor04;
   background: transparent;
   transition: .1s ease-in-out;

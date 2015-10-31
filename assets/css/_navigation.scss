@@ -1,5 +1,31 @@
 .site-nav {
+  @include media(640px) {
+    float: right;
+    display: inline-block;
+  }
+
   @include media(max-width 640px) {
     border-top: 1px solid rgba(255,255,255,.2);
   }
+}
+
+.site-nav__item {
+  text-transform: capitalize;
+  font-size: 1rem;
+  color: rgba($white,.66);
+
+  @include media(640px) {
+    text-transform: uppercase;
+  }
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: $baseUnit; 
+}
+
+.page--home .site-nav__item--home,
+.page--writing .site-nav__item--writing, 
+.page--about .site-nav__item--about {
+  color: rgba($white,1);
+
 }

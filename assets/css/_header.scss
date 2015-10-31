@@ -2,27 +2,9 @@
   border-bottom: 1px solid $borderColor;
   line-height: $baseUnit*3;
   background-color: $mainColor04;
-
-  a {
-    color: $white;
-  }
 }
 
 .site-title {
   font-size: 1.5rem;
-}
-
-.site-nav {
-  @include media(640px) {
-    float: right;
-    display: inline-block;
-  }
-
-  a {
-    font-size: 1rem;
-  }
-}
-
-.site-nav .page-link:not(:last-child) {
-  margin-right: $baseUnit; 
+  color: $white;
 }
